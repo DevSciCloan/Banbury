@@ -7,7 +7,13 @@ html {
 }
 
 body {
+  font-family: Noto Sans;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   margin: 0;
+  height: inherit;
+  width: 100%;
 }
 
 main {
@@ -641,10 +647,10 @@ ul {
   font-family: Nunito Sans, Arial, Helvetica, sans-serif;
 }
 @media (min-width: 1160px) {
-  .header {
-    padding: 0;
-    width: 90%;
-  }
+  // .header {
+  //   padding: 0;
+  //   width: 90%;
+  // }
 }
 
 .logo img {
