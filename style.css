@@ -621,14 +621,24 @@ ul {
 
 /***** Header *****/
 .header {
-  max-width: 1160px;
-  margin: 0 auto;
+  /* max-width: 1160px; */
+  /* margin: 0 auto;
   padding: 0 5%;
   position: relative;
   align-items: center;
   display: flex;
   height: 71px;
+  justify-content: space-between; */
+  display: flex;
   justify-content: space-between;
+  gap:48px;
+  align-items: center;
+  padding: 0 16px 0 24px;
+  min-height: 80px;
+  height: 80px;
+  box-shadow:0 1px 5px rgba(0, 0, 0, 0.25);
+  z-index: 10011;
+  font-family: Nunito Sans, Arial, Helvetica, sans-serif;
 }
 @media (min-width: 1160px) {
   .header {
@@ -4722,5 +4732,5 @@ zd-summary-block {
 }
 
 .header {
-  background-color: red;
+  background-color: #fff;
 }
