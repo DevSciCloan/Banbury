@@ -653,7 +653,7 @@ ul {
   // }
 }
 
-.header.left-container {
+.header>.left-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -662,7 +662,7 @@ ul {
   margin: 4px;
 }
 
-.header.right-container 
+.header>.right-container 
 {
     display: flex;
     justify-content: flex-end;
@@ -672,13 +672,13 @@ ul {
     margin: 4px;
 }
 
-.header.left-container.link-container
+.header>.left-container>.link-container
 {
   display: flex;
   align-items: center;
   height: 100%;
 }
-.header.left-container.link-container a.header-link 
+.header>.left-container>.link-container> a.header-link 
 {
   color: #000;
   font-weight: 400;
@@ -690,7 +690,7 @@ ul {
   align-items: center;
   text-decoration: none;
 }
-.header.left-container.link-container a.header-link.active
+.header>.left-container>.link-container >a.header-link>.active
 {
   border-bottom: 4px solid #009eb9;
   margin-bottom: -4px;
