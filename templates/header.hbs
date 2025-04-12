@@ -8,8 +8,12 @@
       </a>
     </div>
     <div class="link-container">
-      {{link 'community' class='header-link'}}
-      {{link 'new_request' class='submit-a-request header-link'}}
+      {{#link 'community' class='header-link'}}
+        {{t 'community'}}
+      {{/link}}
+      {{#link 'new_request' class='submit-a-request header-link'}}
+        {{t 'submit_a_request'}}
+      {{/link}}
     </div>
   </div>
   
