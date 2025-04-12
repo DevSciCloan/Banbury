@@ -712,6 +712,7 @@ a.sign-in
 .logo img {
   max-height: 37px;
   vertical-align: middle;
+  padding-right: 32px;
 }
 
 .logo span {
