@@ -34,7 +34,14 @@
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "inherit"
+          "value": "#1F73B7"
+        },
+        {
+          "identifier": "logo_text_color",
+          "type": "color",
+          "description": "JustServe_logo_text_orange",
+          "label": "important_link_color_label",
+          "value": "#ef5e39"
         },
         {
           "identifier": "hover_link_color",
